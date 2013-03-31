@@ -10,26 +10,41 @@
   margin-right: auto;
 }
 
+.top-bar-section {
+  margin-right: 50px;
+}
+
 #welcome-bg {
   background: #BCF1ED;
   background-image:url('../images/square_bg.png');
 }
 
 #ourstory-bg {
-    background: #FFF0AA;
-  background-image:url('../images/square_bg.png');}
+  background: #FFF0AA;
+  background-image:url('../images/square_bg.png');
+}
 
 #weddingevents-bg {
-    background: #BCF1ED;
-
-  background-image:url('../images/square_bg.png');}
+  background: #BCF1ED;
+  background-image:url('../images/square_bg.png');
+}
 
 #location-bg {
-     background: #FFF0AA;
-  background-image:url('../images/square_bg.png');}
+  background: #FFF0AA;
+  background-image:url('../images/square_bg.png');
+}
 
 #registry-bg {
-  background-image:url('../images/square_bg.png');}
+  background: #BCF1ED;
+  background-image:url('../images/square_bg.png');
+}
 
 #photos-bg {
-  background-image:url('../images/square_bg.png');}
+  background: #FFF0AA;
+  background-image:url('../images/square_bg.png');
+}
+
+#rsvp-bg {
+  background: #BCF1ED;
+  background-image:url('../images/square_bg.png');
+}

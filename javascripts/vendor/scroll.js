@@ -26,4 +26,8 @@ $(function(){
     $.scrollTo('#photos', scrolltime );
   });
 
+  $('#rsvp-nav').click(function(){
+    $.scrollTo('#rsvp', scrolltime );
+  });
+
 })
