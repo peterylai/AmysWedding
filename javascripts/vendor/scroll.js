@@ -14,4 +14,16 @@ $(function(){
     $.scrollTo('#weddingevents', scrolltime );
   });
 
+  $('#location-nav').click(function(){
+    $.scrollTo('#location', scrolltime );
+  });
+
+  $('#registry-nav').click(function(){
+    $.scrollTo('#registry', scrolltime );
+  });
+
+  $('#photos-nav').click(function(){
+    $.scrollTo('#photos', scrolltime );
+  });
+
 })
