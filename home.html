@@ -15,7 +15,8 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 
   <script src="javascripts/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
-  <script src="javascripts/vendor/scroll.js"></script>
+  <script type="text/javascript" src="/js/cookie.js"></script>
+  <script src="javascripts/vendor/home.js"></script>
 
 
 </head>
@@ -41,11 +42,11 @@
       <ul class="right">
         <li><a id="welcome-nav" href="#">Welcome</a></li>
         <li><a id="ourstory-nav" href="#">Our Story</a></li>
-        <li><a id="weddingevents-nav" href="#weddingevents">Wedding Events</a></li>
-        <li><a id="location-nav" href="#Location">Location</a></li>
+        <li><a id="info-nav" href="#">Wedding Information</a></li>
         <li><a id="rsvp-nav" href="#"><em>RSVP</em></a></li>
         <li><a id="photos-nav" href="#">Photos</a></li>
         <li><a id="registry-nav" href="#">Registry</a></li>
+        <li><a id="extras-nav" href="#">Extras!</a></li>
       </ul>
     </section>
   </nav>
@@ -56,9 +57,11 @@
   <div id="welcome-bg">
     <div class="row" id="welcome">
       <div class="large-12 columns">
-        <br><br>
-        <h1>Welcome!</h1>
-        <img src="http://placehold.it/1600x600&text=Header"><br><br>
+        <br /><br />
+        <h1>Welcome</h1>
+        <p>We will be adding more to this site as the planning progresses, so check back periodically for updates!</p>
+        <img class="centralize" src="images/glasses.jpg">
+        <br /><br />
       </div>
     </div>
   </div>
@@ -67,34 +70,65 @@
   <div id="ourstory-bg">
     <div class="row" id="ourstory">
       <div class="large-12 columns">
-        <br><br>
-        <h1>Our Story!</h1>
-        <img src="http://placehold.it/1600x600&text=Header"><br><br>
+        <br /><br />
+        <h1>Our Story</h1>
+        <h4 id="justin">by Justin<span id="danger"> Danger </span> Roberts</h4>
+        <p>
+          Amy and I met in chemistry lab at Princeton in the summer of 2004. Ironically, we had no chemistry at first. I was finishing up my third year of grad school and Amy was starting her undergraduate research. I'm pretty sure she didn't like me much when we first met due to my antics in lab, but through mutual attraction and sheer perseverance, we began dating a year later anyway.
+        </p>
+        <p>
+          Since then, we've seen some good times and bad, had some amazing experiences, had some near-breakups, gone through a couple of graduations and jobs in different states and countries, and done some traveling both separately and together. It took breaking up briefly in December 2011 to push us to realize that we really wanted to make a deeper commitment to each other. We were both miserable without each other.
+        </p>
+        <p>
+          Finally, roughly a year after getting back together, I asked her to marry me right after the ball dropped this past New Year's. I wanted to spend the entire year knowing that we would be together...and that eventually she would promise to obey me (my favorite vow). To my delight, she immediately said yes. That's the end of that story, and the beginning of another one...
+        </p>
+        <img class="centralize" src="images/minigolfbook.jpg"><br />
+        <h1>The Proposal</h1>
+        <h4 id="amy">by Amy<span id="doesnt"> Doesn't </span> Lai</h4>
+        <p>
+          One of our favorite places to go together was a beautiful mini-golf course in New Jersey that, to our great disappointment, has been closed for the last few years. So, when Justin found a book that had miniature golf courses that you could play on its pages, he knew he had to get it for his proposal.
+        </p>
+        <p>
+          We had a low-key New Year's Eve by ourselves at Justin's apartment in our pajamas making ice cream sundaes and watching our new favorite tv show. When the ball dropped, I called my parents to wish them a happy new year. My dad said cryptically to me, "This should be a good year for the two of you." Not knowing that Justin had called him earlier in the day to ask for his permission to marry me, I found his statement rather odd. After I hung up, Justin said he had another present for me.
+        </p>
+        <p>
+          "Who gives a present for New Year's?" I thought. But when I saw the book, I knew it was the perfect gift. As I browsed through the book, I already felt as content as could be to have such a thoughtful boyfriend. Then I reached the last page and there it was:
+        </p>
+        <img class="centralize" src="images/proposal.jpg"><br /><br />
+        <p>
+          How could I say no?
+        </p>
       </div>
     </div>
   </div>
 
-  <div id="weddingevents-bg">
-    <div class="row" id="weddingevents">
+  <div id="info-bg">
+    <div class="row" id="info">
       <div class="large-12 columns">
-        <br><br>
-        <h1>Wedding Events!</h1>
-        <img style:" width:582px; height:436px" src="images/cornhole.jpg"><br><br>
+        <br /><br />
+        <h1>Wedding Information</h1>
       </div>
-    </div>
-  </div>
-
-  <div id="location-bg">
-    <div class="row" id="location">
-      <div class="large-12 columns">
-        <br><br>
-        <h1>Location</h1>
-
+      <div class="large-4 columns">
+        <h4>Schedule</h4>
+          <p>3:00pm - 4:30pm  Cocktail Hour</p>
+          <p>4:30pm - 5:00pm  Ceremony</p>
+          <p>5:00pm - 9:00pm  Reception</p>
+      </div>
+      <div class="large-4 columns">
+        <h4>Location</h4>
+          <p>Chauncey Conference Center</p>
+          <p>One Chauncey Road</p>
+          <p>Princeton, NJ 08541</p>
+      </div>
+      <div class="large-4 columns">
+        <h4><a href="http://www.acc-chaunceyconferencecenter.com/default-en.html">Venue Information</a></h4>
+        <h4><a href="http://www.acc-chaunceyconferencecenter.com/chauncey-conference-en.html">Directions</a></h4>
+      </div>
+      <div class="large-5 columns">
+        <iframe width="400" height="380" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Chauncey+Conference+Center,+Princeton,+NJ&amp;aq=0&amp;oq=chauncey+hotel&amp;sll=38.804821,-77.236966&amp;sspn=2.534103,5.39978&amp;ie=UTF8&amp;hq=Chauncey+Conference+Center,&amp;hnear=Princeton,+Mercer,+New+Jersey&amp;ll=40.356748,-74.716644&amp;spn=0.027961,0.108628&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Chauncey+Conference+Center,+Princeton,+NJ&amp;aq=0&amp;oq=chauncey+hotel&amp;sll=38.804821,-77.236966&amp;sspn=2.534103,5.39978&amp;ie=UTF8&amp;hq=Chauncey+Conference+Center,&amp;hnear=Princeton,+Mercer,+New+Jersey&amp;ll=40.356748,-74.716644&amp;spn=0.027961,0.108628&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+      </div>
+      <div class="large-7 columns">
         <a href="http://www.acc-chaunceyconferencecenter.com/chauncey-conference-en.html#main-content"><img class="centralize" src="images/chauncey.jpg"/></a>
-
-        <iframe class="centralize" width="963" height="375" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Chauncey+Conference+Center,+Princeton,+NJ&amp;aq=0&amp;oq=chauncey+cen&amp;sll=40.07304,-74.724323&amp;sspn=4.783122,9.931641&amp;ie=UTF8&amp;hq=Chauncey+Conference+Center,&amp;hnear=Princeton,+Mercer,+New+Jersey&amp;t=h&amp;ll=40.348768,-74.716258&amp;spn=0.012265,0.041327&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Chauncey+Conference+Center,+Princeton,+NJ&amp;aq=0&amp;oq=chauncey+cen&amp;sll=40.07304,-74.724323&amp;sspn=4.783122,9.931641&amp;ie=UTF8&amp;hq=Chauncey+Conference+Center,&amp;hnear=Princeton,+Mercer,+New+Jersey&amp;t=h&amp;ll=40.348768,-74.716258&amp;spn=0.012265,0.041327&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-
-
       </div>
     </div>
   </div>
@@ -102,147 +136,57 @@
   <div id="rsvp-bg">
     <div class="row" id="rsvp">
       <div class="large-12 columns">
-        <br><br>
+        <br /><br />
         <h1>RSVP</h1>
-  <div id="registry-bg">
-    <div class="row" id="registry">
-      <div class="large-12 columns">
-        <br><br>
-        <h1>Registry</h1>
-        <img src="http://placehold.it/1600x600&text=Header"><br><br>
+          <div id="wufoo-z7x3p3">
+          Fill out my <a href="http://amydoesntlai.wufoo.com/forms/z7x3p3">online form</a>.
+          </div>
+          <script type="text/javascript">var z7x3p3;(function(d, t) {
+          var s = d.createElement(t), options = {
+          'userName':'amydoesntlai', 
+          'formHash':'z7x3p3', 
+          'autoResize':true,
+          'height':'776',
+          'async':true,
+          'header':'show'};
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');</script>
       </div>
     </div>
   </div>
-  
+
   <div id="photos-bg">
     <div class="row" id="photos">
       <div class="large-12 columns">
-        <br><br>
+        <br /><br />
         <h1>Photos</h1>
-        <img src="http://placehold.it/1600x600&text=Header"><br><br>
+        <p>Coming soon!</p>
       </div>
     </div>
   </div>
 
-<div id="wufoo-z7x3p3">
-Fill out my <a href="http://peterylai.wufoo.com/forms/z7x3p3">online form</a>.
-</div>
-<script type="text/javascript">var z7x3p3;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'peterylai',
-'formHash':'z7x3p3',
-'autoResize':true,
-'height':'460',
-'async':true,
-'header':'show'};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-
+  <div id="registry-bg">
+    <div class="row" id="registry">
+      <div class="large-12 columns">
+        <br /><br />
+        <h1>Registry</h1>
+        <p>Coming soon!</p>
       </div>
     </div>
   </div>
 
-  <div class="row">
-
-    <div class="large-3 panel columns">
-      <img src="http://placehold.it/500x500&text=Image">
-
-      <h4>Header</h4>
-
-      <p>Fusce ullamcorper mauris in eros dignissim molestie posuere felis blandit. Aliquam erat volutpat. Mauris ultricies posuere vehicula. Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p><hr>
-
-      <div class="row">
-        <div class="large-4 columns">
-          <a href="#" class="small button">Link</a>
-        </div>
-
-        <div class="large-4 columns">
-          <a href="#" class="small button">Link</a>
-        </div>
-
-        <div class="large-4 columns">
-          <a href="#" class="small button">Link</a>
-        </div>
+  <div id="extras-bg">
+    <div class="row" id="extras">
+      <div class="large-12 columns">
+        <br /><br />
+        <h1>Extras!</h1>
+        <img class="centralize" src="images/cu.jpg" />
       </div>
     </div>
-
-    <div class="large-9 columns">
-      <div class="panel">
-        <div class="row">
-
-          <div class="large-3 columns">
-            <img src="images/arch.jpg">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-
-          <div class="large-3 columns end">
-            <img src="http://placehold.it/600x500&text=Thumbnail">
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <div class="panel">
-            <h5>Subheader</h5>
-            <p>Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p>
-            <a href="#" class="small button">Link</a>
-          </div>
-        </div>
-
-        <div class="large-6 columns">
-          <div class="panel">
-            <h5>Subheader</h5>
-            <p>Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p>
-            <a href="#" class="small button">Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 
   <!-- Footer -->
@@ -257,15 +201,29 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 
         <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
+            <li><a href="mailto:amy@nerdwedding2013.com">E-mail Amy</a></li>
+            <li><a href="mailto:justin@nerdwedding2013.com">E-mail Justin</a></li>
           </ul>
         </div>
 
       </div>
     </div>
   </footer>
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-40208100-1']);
+_gaq.push(['_setDomainName', 'nerdwedding2013.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
 </body>
 </html>
