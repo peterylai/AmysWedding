@@ -11,9 +11,9 @@ $(document).ready(function(){
   });
 
   $('#justin').mouseenter(function() {
-    $('#danger').stop().fadeIn(500);
+    $('#danger').fadeIn(500);
   }).mouseleave(function() {
-    $('#danger').stop().fadeOut(500);
+    $('#danger').fadeOut(500);
   });
 
   $('#amy').mouseenter(function() {
