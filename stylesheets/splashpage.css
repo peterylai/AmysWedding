@@ -3,7 +3,7 @@
   border: 7pt solid #9C1940;
   text-align: center;
   border-radius: 50px;
-  background: #E0CE92;
+  background: #FAF9BE;
   box-shadow: 1px 5px 5px #888888;
   position: relative;
 }
@@ -13,5 +13,5 @@
 #yes, #no {
   background-color: #9C1940;
   border: 1px solid black;
-  color: #E0CE92;
+  color: #FAF9BE;
 }
