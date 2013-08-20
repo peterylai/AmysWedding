@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 10;
-  background: #9C1940;
+  background: #990000;
 }
 
 .logo {
@@ -18,7 +18,7 @@
 }
 
 body {
-  background: #FAF9BE;
+  background: #F6F4EA;
   background-image:url('../images/square_bg.png');
 }
 

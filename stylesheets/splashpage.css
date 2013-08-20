@@ -1,17 +1,14 @@
 #area {
   margin-top: 20px;
-  border: 7pt solid #9C1940;
+  border: 7pt solid #990000;
   text-align: center;
   border-radius: 50px;
-  background: #FAF9BE;
+  background: #F6F4EA;
   box-shadow: 1px 5px 5px #888888;
   position: relative;
 }
-#question {
-  text-shadow: 1px 2px 5px #ffffff;
-}
 #yes, #no {
-  background-color: #9C1940;
+  background-color: #990000;
   border: 1px solid black;
-  color: #FAF9BE;
+  color: #F6F4EA;
 }
