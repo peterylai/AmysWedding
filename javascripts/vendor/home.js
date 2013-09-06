@@ -3,7 +3,7 @@ $(document).ready(function(){
   $('body').fadeIn(1000);
   var scrolltime = 500;
 
-  $('#welcome-nav, #ourstory-nav, #info-nav, #registry-nav, #photos-nav, #rsvp-nav, #extras-nav').click(function(ev){
+  $('#welcome-nav, #ourstory-nav, #info-nav, #dance-nav, #registry-nav, #photos-nav, #rsvp-nav, #extras-nav').click(function(ev){
     ev.preventDefault();
     var nav_id = $(this).attr('id');
     var section_name = '#' + nav_id.substring(0, nav_id.length - 4);
